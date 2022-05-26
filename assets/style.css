@@ -1,0 +1,240 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: gray;
+}
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    color: #ffffff;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+content {
+    width: 90%;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+/* Affects how the div under content is formatted*/
+content div {
+    margin-bottom: 20px;
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    color: #ffffff;
+}
+
+/*content div img {
+    width: 200px;
+    height: 334px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 2px solid #e9385a;
+    object-fit: cover;
+}*/
+
+content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    margin-top: 0px;
+}
+
+#Work {
+    margin-bottom: 20px;
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    color: #ffffff;
+}
+
+#Work .big .img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+/* affects h3*/
+.big {
+    position: relative;
+    top: 670px;
+    left: 0px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 10%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px; 
+    padding: 20px;
+    text-align: center;
+}
+
+#Work:hover .big {
+    opacity: 1;
+}
+
+/* */
+
+#Work img[src="assets/image/edin.JPG"] {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px;
+    flex: 0 0 400px;
+    width: 30%;
+}
+
+
+
+.pro {
+    position: relative;
+    top: 240px;
+    left: 0px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 10%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px; 
+    padding: 20px;
+    text-align: center;
+}
+
+#Work:hover .pro {
+    opacity: 1;
+}
+
+.pro1 {
+    position: relative;
+    top: 240px;
+    left: 0px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 10%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px; 
+    padding: 20px;
+    text-align: center;
+}
+
+#Work:hover .pro1 {
+    opacity: 1;
+}
+
+.pro2 {
+    position: relative;
+    top: 240px;
+    left: 0px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 10%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px; 
+    padding: 20px;
+    text-align: center;
+}
+
+#Work:hover .pro2 {
+    opacity: 1;
+}
+
+.pro3 {
+    position: relative;
+    top: 240px;
+    left: 0px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 10%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px; 
+    padding: 20px;
+    text-align: center;
+}
+
+#Work:hover .pro3 {
+    opacity: 1;
+}
+
+
+.projects {
+    display: block;
+}
+
+.projects {
+    flex: 4;
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media screen and (max-width:800px) {
+    #Work big {
+        flex:50%;
+        max-width: 75%;
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+    #Work big {
+        flex:100%;
+        max-width: 100%;
+    }
+    
+}
+  
+@media screen and (max-width: 800px) {
+    .projects {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .projects {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  /*put h3 under image*/
