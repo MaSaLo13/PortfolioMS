@@ -17,4 +17,4 @@ https://github.com/MaSaLo13/PortfolioMS
 
 Deployed Site:
 
-https://masalo13.github.io/Horiseon-refactor/
+https://masalo13.github.io/PortfolioMS/
